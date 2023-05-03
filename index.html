@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/ball.png">
+            </head>
+            <body class="uff">  
+                <style>
+                    .sign{
+            border: 2px solid black;
+                    border-radius: 150px;
+                    font-size: 15px;
+                    font-weight: 150px;
+                    padding: 1px 10px;
+                    height: 25px;
+                    background-color: white;
+                    position: relative;
+                    top: 15px;
+                    left: 50px;
+        }
+        header nav ul {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: center;
+                }
+                header nav ul li {
+                    list-style-type: none;
+                    margin: 20px;
+                    font-weight: 500;
+                    color: ghostwhite;
+                }
+        .ul{
+            position: relative;
+            left: 400px;
+        
+        }
+        .img{
+            position: relative;
+            top: 120px;
+            height: 400px;
+            width: 600px;
+            left: 300px;
+        }
+        .attu{
+            position: relative;
+            left: 50px;
+            font-size: 50px;
+            bottom: 200px;
+        }
+        .img1{
+            position: absolute;
+        }
+        .ledhu{
+            border: 2px solid black;
+                    border-radius: 150px;
+                    font-size: 15px;
+                    font-weight: 150px;
+                    padding: 10px 50px;
+                    height: 25px;
+                    background-color: white;
+                    position: relative;
+                    bottom: 200px;
+                    left: 50px;
+                    position: relative;
+        }
+        .icon{
+            position: absolute;
+            left: 300px;
+            bottom: 158px;
+        }
+        .text{
+            position: absolute;
+            left: 70px;
+            bottom: 160px;
+        }
+        .sunny{
+            position: relative;
+            text-align: center;
+            text-size-adjust: 200px;
+            width:900px;
+            height:300px;
+            border:2px;
+            bottom: 100px;
+            background:darkmagenta;
+        }
+        .puff2{
+            position: relative;
+            text-align: center;
+            text-size-adjust: 200px;
+            width:1000px;
+            height:250px;
+            border:2px;
+            left:40px;
+            bottom: 900px;
+            background:rgb(227, 224, 224);
+        }
+        .attu1{
+            position: relative;
+            top: 50px;
+            font-size: 20px;
+        }
+        .attu9{
+            position: relative;
+            bottom: 20px;
+        }
+        .side{
+              position: relative;
+              text-align: left;
+              left: 500px;
+              bottom: 400px;
+              font-size: 35px;
+        }
+        .side1{
+            position: relative;
+            text-align: left;
+            left:500px;
+            bottom:380px;
+        }
+        .sai{
+            position: relative;
+            height:400px;
+        }
+        .box{
+            position:relative;
+            top:100px;
+            right:100px;
+        
+        }
+        .box1{
+            position:relative;
+            top:100px;
+            right:80px;
+        
+        }
+        .box2{
+            position:relative;
+            top:100px;
+            right:50px;
+        
+        }
+        .cases{
+            position: relative;
+            left:0px;
+            font-size:20px;
+        }
+        .card{
+            position: relative;
+            left:600px;
+            bottom: 250px;
+        }
+        .card1{
+            position: relative;
+            bottom: 350px;
+            left: 40px;
+        }
+        .puff{
+            position: relative;
+            bottom: 200px;
+            left: 190px;
+        }
+        .side2{
+            position: relative;
+            text-align: left;
+            left:600px;
+            bottom:550px;
+            font-size: 20px;
+        
+        }
+        .side3{
+            position: relative;
+            text-align: left;
+            left:600px;
+            bottom:550px;
+        }
+        .side4{
+            position: relative;
+            bottom: 450px;
+            left:50px;
+            font-size: 20px;
+        }
+        .sit{
+            position:relative;
+            bottom: 450px;
+            left:50px;
+        }
+        .sit1{
+            position:relative;
+            left:550px;
+            bottom:600px;
+        }
+        .out{
+            position: relative;
+            text-align: left;
+            left:600px;
+            bottom:600px;
+            font-size: 20px;
+        }
+        .out1{
+            position: relative;
+            text-align: left;
+            left:600px;
+            bottom:600px;
+        }
+        .all{
+            position: relative;
+            text-align:left;
+            left: 50px;
+            bottom:600px;
+            font-size: 35px;
+        }
+        .square {
+          height: 50px;
+          width: 50px;
+          background-color:yellow;
+          position: relative;
+          text-align:left;
+          left:40px;
+          bottom:600px;
+          
+        }
+        .square1{
+            height: 50px;
+            width: 50px;
+            background-color:yellow;
+            position: relative;
+            text-align:left;
+            left:400px;
+            bottom:650px;
+          
+        }
+        .square2{
+            height: 50px;
+            width: 50px;
+            background-color:yellow;
+            position: relative;
+            text-align:left;
+            left:750px;
+            bottom:700px;
+        }
+        .dot{
+            position: relative;
+            text-align: none;
+            left:90px;
+            bottom:750px;
+        
+        }
+        .dot1{
+            position: relative;
+            text-align: none;
+            left: 453px;
+            bottom:784px;
+        
+        }
+        .of{
+            position: relative;
+            text-align: none;
+            left:45px;
+            bottom:750px;
+            font-size: 20px;
+            
+        }
+        .of1{
+            position: relative;
+            text-align: none;
+            left:45px;
+            bottom:750px;  
+        }
+        .o{
+            position: relative;
+            text-align: none;
+            left:400px;
+            bottom:870px; 
+            font-size: 20px; 
+        }
+        .o1{
+            position: relative;
+            text-align: none;
+            left:400px;
+            bottom:870px; 
+        }
+        .f{
+            position: relative;
+            text-align: none;
+            left:750px;
+            bottom:990px; 
+            font-size: 20px; 
+        }
+        .f1{
+            position: relative;
+            text-align: none;
+            left:750px;
+            bottom:990px; 
+        }
+        .c{
+            position:relative;
+            text-align: none;
+            bottom:950px;
+            left:50px;
+            font-size: 40px;
+        }
+        .c1{
+            position:relative;
+            text-align: none;
+            bottom:1020px;
+            left:450px;
+        }
+        .uff{
+            background: linear-gradient(violet 20%,ghostwhite 80%);
+        }
+        
+        .class{
+            display: flex;
+        }
+        .tab5{
+            position: relative;
+            text-align: left;
+            left:830px;
+            bottom:350px;
+        }
+        .com{
+            position: relative;
+            text-align: left;
+            left:830px;
+            bottom:340px;
+        }
+        .tab4{
+            position: relative;
+            text-align: left;
+            left:630px;
+            bottom: 260px;
+        }
+        .sup{
+            position: relative;
+            text-align: left;
+            left:630px;
+            bottom:250px;
+        }
+        .tab3{
+            position: relative;
+            text-align: left;
+            left:470px;
+            bottom:145px;
+        }
+        .comm{
+            position: relative;
+            text-align: left;
+            left:475px;
+            bottom:140px;
+        }
+        .tab2{
+            position: relative;
+            text-align: left;
+            left:300px;
+            bottom:55px;
+        }
+        .res{
+            position: relative;
+            text-align: left;
+            left:300px;
+            bottom:50px;
+        }
+        .tab1{
+            position: relative;
+            text-align: left;
+            left:100px;
+            bottom:-35px;
+        }
+        .pro{
+          position: relative;
+          text-align: left;
+          left:100px;
+          bottom:-45px;
+        }
+        .any{
+            position: relative;
+            text-align: none;
+            bottom:950px;
+            left:970px;
+        }
+                </style>
+                 <header>
+                <nav>
+                    <ul>
+                        <h4 style="color: ghostwhite; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 25px; position: relative; bottom: 20px;" >Mi-Kishan</h4>
+                       <li class="ul">Service</li>
+                       <li class="ul">About us</li>
+                       <li class="ul">Contact</li>
+                       <button type="button" class="sign ul">sign up</button>
+                    </ul>
+                </nav>
+            </div>
+        
+                 </header>
+                 <div>
+                 <img src="https://www.bing.com/images/blob?bcid=S0Jz1yCr1IIFZQ.eNtS9-UKHaNUB.....0Y" class="img1" alt="1">
+                 <img src="https://www.bing.com/images/blob?bcid=S5psiHCnLoIFZQ.eNtS9-UKHaNUB.....74" class="img" alt="1">
+                 <header>
+                <div class="back">
+                    <h1 style="color: ghostwhite;" class="attu">A Creative<br>Company That's More</h1>
+                    <input type="text" label="" id="search" class="ledhu">
+                    <p class="icon">🔍</p>
+                    <p class="text">www.google.com</p>
+                <div class="sunny">
+                    <p style="color: aliceblue;" class="attu1">An Agency refers to a relationship comparising two parties,where<br>one party,called the agent,represents the other party,called the<br> principal. An agent is usually hired by the principal to perform an<br> act or Service on his behalf.</p><br><p style="color: ghostwhite; right:100px;"></p></div>
+                    <div class="puff">
+                        <p style="color: ghostwhite;">by Founder<br></p><p style="color: red;">Majarul Islam</p>
+                    </div>
+                   <img src="https://www.bing.com/images/blob?bcid=S6kvaHQF-oMFZQ.eNtS9-UKHaNUB.....wQ" class="sai"alt="1">
+                   <img src="https://lh3.googleusercontent.com/SKNB9DLW8jUJXX6jwPcQXUdmV7RLVj0zdlDt8dF6oZVLv9EmDFnc1QWEkA0B8-airbvVyLmk2cAVD3jPB_CKSrnLsT4GYySOFbyK0sMT"class="box" alt="1"/>
+                   <img src="https://lh3.googleusercontent.com/0N1w0vAryMOyMSbtMX4rKW9wXUOvtZ7SS8l7lPjE8LRibMcsvJELyNgNffgq_7bIhSpaXRELF9OeNlMEPmnJCydA2O4Ogq9FgIUQFjRJoQ" class="box1" alt="1"/>
+                   <img src="https://www.bing.com/images/blob?bcid=S5SVMFZEyIMFZQ.eNtS9-UKHaNUB.....wQ" class="box2" alt="1"/>
+                    </div>
+                    <h1 style="color:ghostwhite;" class="side">Corret decision is<br> the main purpose<br>of this Agency.</h1>
+            <p style="color:dimgray;"class="side1">Lorem ipsum dolor sit amet consectetur.Congue iaculis nullam<br>pulvinar purus mauris odio. Eget temper id ullamcorper facilisi<br>proin odio.</p>
+                </div></header>
+                <header>
+                <div class="cases">
+                    <h1>Here goes a titel about the<br>cases datdash has on<br>here</h1>
+                    <h5>Check out of our cases&rarr;</h5></div>
+                    <img src="https://www.bing.com/images/blob?bcid=S3dtSxSiC4MFZQ.eNtS9-UKHaNUB.....5g"class="card" alt="1"/>
+                    <div>
+                        <div>
+                    <img src="https://th.bing.com/th/id/OIP.H3zkTATvGW5axDihrz9AKgHaE8?pid=ImgDet&rs=1" class="card1" alt="1">
+                   <h3 class="side2">Check out of our cases</h3>
+                    <p  style="color:dimgray " class="side3">Lorem ipsum dolor sit amet consectetur.Congue iaculis<br> nullam pulvinar purus mauris odio. Eget temper id <br>ullamcorper facilisi proin odio.</p></div>
+                    <h3 class="side4">Check out of our cases</h3>
+                    <p style="color:dimgray" class="sit">Lorem ipsum dolor sit amet consectetur.Congue iaculis<br>nullam pulvinar purus mauris odio. Eget temper id<br>ullamcorper facilisi proin odio.</p>
+                    <img src="https://th.bing.com/th/id/OIP.RPMrN-tuIPV1fRHLA2YUagHaE8?pid=ImgDet&rs=1" class="sit1" alt="1"/>
+                        <h3 class="out">Check out of our cases</h3>
+                        <p style="color:dimgray" class="out1">Lorem ipsum dolor sit amet consectetur.Congue iaculis<br>nullam pulvinar purus mauris odio. Eget temper id<br>ullamcorper facilisi proin odio.</p>
+                        <h2 class="all">All you need to do is follow<br>our steps</h2>
+                </div>
+                <div class="square" style="text-align: center">01</div>
+                <div class="square1" style="text-align: center;">02</div>
+                <div class="square2"style="text-align: center;">03</div>
+              <p class="dot">----------------------------------------------------------</p>
+              <p class="dot1">--------------------------------------------------------</p>
+              <p class="of">Check out of our cases</p>
+              <p class="of1" style="color: dimgray;">Lorem ipsum dolor sit amet consectetur.Congue<br>iaculis nullam pulvinar purus mauris odio. Eget<br>temper id ullamcorper facilisi proin odio.</p>
+              <p class="o">Check out of our cases</p>
+              <p class="o1" style="color: dimgray;">Lorem ipsum dolor sit amet consectetur.Congue<br>iaculis nullam pulvinar purus mauris odio. Eget<br>temper id ullamcorper facilisi proin odio.</p>
+              <p class="f">Check out of our cases</p>
+              <p class="f1" style="color: dimgray;">Lorem ipsum dolor sit amet consectetur.Congue<br>iaculis nullam pulvinar purus mauris odio. Eget<br>temper id ullamcorper facilisi proin odio.</p>
+              <h2 class="c">Concept</h2>
+              <p class="c1" style="color: dimgray;">Lorem ipsum dolor sit amet consectetur.Congue iaculis nullam pulvinar purus<br>mauris odio. Eget temper id ullamcorper facilisi proin odio.Lorem ipsum dolor sit<br>amet consectetur.Congue iaculis nullam pulvinar purus mauris odio. Eget<br>temper id ullamcorper facilisi proin odio.</p>
+              <div class="rectangle" style="background-color: black;"></div>
+        
+            <div class="puff2">
+            <table >
+                <th class="tab1">Product</th>
+            <tr>
+                <td style="color: darkgrey;"class="pro">Icon Desgin</td></tr>
+                <tr><td style="color: darkgrey;"class="pro">Logo Desgin</td></tr>
+                <tr><td style="color: darkgrey;"class="pro">UI/UX Desgin</td></tr>
+                </tr></table>
+                <table>
+                <th class="tab2">Resources</th>
+                <tr>
+                    <tr><td style="color: darkgrey;" class="res">Blog</td></tr>
+                    <tr><td style="color: darkgrey;"class="res">Support</td></tr>
+                    <tr><td style="color: darkgrey;" class="res">Newsletter</td></tr>
+                </tr></table>
+                <table ><th class="tab3">Community</th>
+                <tr>
+                    <tr><td  style="color: darkgrey;" class="comm">Twitter</td></tr>
+                    <tr><td style="color: darkgrey;"class="comm">Instagram</td></tr>
+                        <tr><td style="color: darkgrey;" class="comm">Slack</td></tr>
+                            <tr><td  style="color: darkgrey;"class="comm">Dribble</td></tr>
+                </tr></table>
+                <table>
+                <th class="tab4">Support</th>
+                <tr>
+                    <tr><td style="color: darkgrey;" class="sup">My Account</td></tr>
+                    <tr> <td  style="color: darkgrey;"class="sup">Help & Support</td></tr>
+                    <tr> <td  style="color: darkgrey;" class="sup">Contact Us</td></tr>
+                </tr></table>
+                <table>
+                <th class="tab5">Company</th>
+                <tr>
+                    <tr> <td style="color: darkgrey;"class="com">Privacy Policy</td></tr>
+                    <tr> <td style="color: darkgrey;"class="com">Terms of services</td></tr>
+                    <tr> <td style="color: darkgrey;"class="com">Code of Conduct</td></tr>
+                </tr></table>   </div>
+            </table>
+           <img src="https://www.bing.com/images/blob?bcid=S43pIHFl7IMFqxcxoNWLuD9SqbotqVTdP88" class="any" alt="">
+        </header>
+            </body>
+        </html>
